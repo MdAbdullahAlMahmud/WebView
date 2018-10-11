@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/swipe"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+
+        <ProgressBar
+            android:id="@+id/progessbar"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/im"
+            android:src="@drawable/ic_launcher_background"/>
+
+
+    </LinearLayout>
+
+
+
+
+            <WebView
+                android:id="@+id/wb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
